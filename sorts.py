@@ -78,7 +78,7 @@ def bubblesort(list):
 
 
 
-list = bubblesort(list)	
+list = mergesort(list)	
 for i in range(1, len(list) - 1):
 	if(list[i-1] > list[i]):
 		print ("False")
