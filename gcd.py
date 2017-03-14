@@ -8,6 +8,7 @@ def find_gcd(a, b):
         i+=1
 
     return mcd
+
 def better_gcd(a, b):
     while (b != 0):
         t = a
@@ -16,9 +17,9 @@ def better_gcd(a, b):
     return a
 
 def main():
-    a=2
-    b=2
-    gcd = better_gcd(a,b)
+    a=21
+    b=14
+    gcd = find_gcd(a,b)
 
     n= int(a/gcd)
     d= int(b/gcd)
